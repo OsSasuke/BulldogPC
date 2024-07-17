@@ -7,15 +7,51 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Ygdfgdfdfggdf -->
     <header>
-        <!-- Header content -->
+        <div class="container">
+            <h1>Bulldog Builds</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <!-- Main content -->
+    <main id="home" class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Bulldog Builds! We offer the best custom-built PCs for all your needs, whether gaming, work, or personal use. Our expert team ensures top quality and performance in every build.</p>
+        </section>
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <h3>Gaming PC</h3>
+                <p>High-performance gaming PC with the latest graphics and processing power.</p>
+                <p>Price: £1500</p>
+            </div>
+            <div class="product">
+                <h3>Workstation PC</h3>
+                <p>Reliable and efficient PC for all your professional needs.</p>
+                <p>Price: £1200</p>
+            </div>
+            <div class="product">
+                <h3>Home PC</h3>
+                <p>Perfect for everyday use, browsing, and entertainment.</p>
+                <p>Price: £800</p>
+            </div>
+        </section>
     </main>
     <footer>
-        <!-- Footer content -->
+        <div class="container">
+            <p>Contact us: info@bulldogbuilds.co.uk | Follow us on 
+                <a href="#">Facebook</a>, 
+                <a href="#">Twitter</a>, 
+                <a href="#">Instagram</a>
+            </p>
+        </div>
     </footer>
 </body>
 </html>
